@@ -176,7 +176,6 @@ document.addEventListener("keydown", function (event) {
     dodger.style.left = `${left - 1}px`;
   }
 });
-```
 
 So what are we doing here? Well, when our event listener detects a `keydown`
 event, we first check to see whether the `key` property of the event object has
